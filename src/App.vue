@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderComp />
+  <MetodoPagos />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComp from './components/HeaderComp.vue'
+import MetodoPagos from './components/MetodoPagos.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderComp,
+    MetodoPagos
+
   }
 }
 </script>
@@ -20,7 +23,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #3D3D3D;
 }
 </style>
